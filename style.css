@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    /* opacity: 0.5; */
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top:20vh;
+    margin-bottom: 20vh;
+    gap:25px;
+    border: 1px solid grey;
+    padding:25px;
+    border-radius: 18px;
+    box-shadow: 0 0 1px 2.5px rgb(241, 238, 238);
+    
+}
+/* 
+body div{
+    opacity: 1;
+    z-index:5;
+} */
+
+
+h1{
+   align-self: flex-start;
+}
