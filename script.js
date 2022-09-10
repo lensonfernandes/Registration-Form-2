@@ -154,7 +154,7 @@ function checkState(){
 function checkZip(){
     let zipCode = document.getElementById('zip').value
     let zipLen = zipCode.length;
-    
+    zipCondition = false;
 
       if(zipLen == 6)
     {
